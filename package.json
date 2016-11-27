@@ -1,0 +1,22 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "aniket",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.8",
+    "mongoose": "^4.5.10",
+    "regex": "^0.1.1",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1",
+    "slack-cleanup": "0.0.1",
+    "slack-node": "^0.2.0",
+    "slackbots": "^0.5.2"
+  }
+}
